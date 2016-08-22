@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM gcc
 COPY main.c .
 RUN gcc main.c -o test
 CMD ["./test"]
